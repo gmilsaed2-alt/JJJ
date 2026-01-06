@@ -1,0 +1,112 @@
+{
+  "placeholderImages": [
+    {
+      "id": "avocado-juice",
+      "description": "Avocado juice",
+      "imageUrl": "https://images.unsplash.com/photo-1584587727565-a486d45d58b4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhdm9jYWRvJTIwanVpY2V8ZW58MHx8fHwxNzY3NjU4MDMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "avocado juice"
+    },
+    {
+      "id": "cocktail-juice",
+      "description": "Cocktail juice",
+      "imageUrl": "https://images.unsplash.com/photo-1551538850-09324654817c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxMYXllcmVkJTIwSnVpY2V8ZW58MHx8fHwxNzI0NDkwMTAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "layered juice"
+    },
+    {
+      "id": "lemon-juice",
+      "description": "Lemon juice",
+      "imageUrl": "https://images.unsplash.com/photo-1629380072258-3d0d04a6f65a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxsZW1vbmFkZSUyMGRyaW5rfGVufDB8fHx8MTc2NzY1ODAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "lemonade drink"
+    },
+    {
+      "id": "mango-juice",
+      "description": "Fresh mango juice",
+      "imageUrl": "https://images.unsplash.com/photo-1553279768-86542fb68128?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5nbyUyMGp1aWNlfGVufDB8fHx8MTcyNDQ5MDI0MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mango juice"
+    },
+    {
+      "id": "strawberry-juice",
+      "description": "Fresh strawberry juice",
+      "imageUrl": "https://images.unsplash.com/photo-1525385133512-2f3bdd039054?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHJhd2JlcnJ5JTIwanVpY2V8ZW58MHx8fHwxNzI0NDkwMjczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "strawberry juice"
+    },
+    {
+      "id": "fakhfakhina-juice",
+      "description": "Fakhfakhina juice",
+      "imageUrl": "https://images.unsplash.com/photo-1641642400143-6be68f1a0918?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmcnVpdCUyMHNhbGFkfGVufDB8fHx8MTc2NzYxMTQ5Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fruit salad"
+    },
+    {
+      "id": "egg-sandwich",
+      "description": "Fried egg sandwich",
+      "imageUrl": "https://images.unsplash.com/photo-1733105666420-729679827ba1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxlZ2clMjBzYW5kd2ljaHxlbnwwfHx8fDE3Njc2NTgwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "egg sandwich"
+    },
+    {
+      "id": "chips-mayo-sandwich",
+      "description": "Chips with mayonnaise sandwich",
+      "imageUrl": "https://images.unsplash.com/photo-1716535233357-822bcc293573?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxmcmllcyUyMHNhbmR3aWNofGVufDB8fHx8MTc2NzY1ODAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "fries sandwich"
+    },
+    {
+      "id": "tuna-sandwich",
+      "description": "Tuna sandwich",
+      "imageUrl": "https://images.unsplash.com/photo-1592415486699-843073041535?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0dW5hJTIwc2FuZHdpY2h8ZW58MHx8fHwxNzI0NDkwNDYyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tuna sandwich"
+    },
+    {
+      "id": "falafel-sandwich",
+      "description": "Falafel sandwich",
+      "imageUrl": "https://images.unsplash.com/photo-1593999039886-c9aaa933d1b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWxhZmVsJTIwc2FuZHdpY2h8ZW58MHx8fHwxNzI0NDkwNDk1fDA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "falafel sandwich"
+    },
+    {
+      "id": "foul-plate",
+      "description": "Foul plate for breakfast",
+      "imageUrl": "https://images.unsplash.com/photo-1698642738743-43185542b8e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmb3VsJTIwbWVhbHxlbnwwfHx8fDE3MjQ0OTA1NDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "foul meal"
+    },
+    {
+      "id": "shakshouka-plate",
+      "description": "Shakshouka plate for breakfast",
+      "imageUrl": "https://images.unsplash.com/photo-1590412200988-a436970781fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzaGFrc2hvdWthfGVufDB8fHx8MTcyNDQ5MDU3Mnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "shakshouka breakfast"
+    },
+    {
+      "id": "kids-meal-nuggets",
+      "description": "Kids meal with nuggets",
+      "imageUrl": "https://images.unsplash.com/photo-1626073100234-ab465a443555?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjaGlsZHJlbiUyMG51Z2dldHMlMjBtZWFsJTIwd2l0aCUyMGZyaWVzfGVufDB8fHx8MTcyNDQ5MDYyNnww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "nuggets meal"
+    },
+    {
+      "id": "kids-meal-burger",
+      "description": "Kids meal with burger",
+      "imageUrl": "https://images.unsplash.com/photo-1572448862527-d3c904a57639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxraWRzJTIwYnVyZ2VyJTIwbWVhbHxlbnwwfHx8fDE3MjQ0OTA2NTR8MA&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "kids burger"
+    },
+    {
+      "id": "event-juices",
+      "description": "Juice bottles for events",
+      "imageUrl": "https://images.unsplash.com/photo-1600036159182-018f78d19561?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqdWljZSUyMGJvdHRsZXMlMjBhcnJhbmdlbWVudHxlbnwwfHx8fDE3MjQ0OTA3MDN8MA&ixlibrb-4.1.0&q=80&w=1080",
+      "imageHint": "juice bottles"
+    },
+    {
+      "id": "event-sandwiches",
+      "description": "Mini sandwiches for events",
+      "imageUrl": "https://images.unsplash.com/photo-1567234669013-2680de4de716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtaW5pJTIwc2FuZHdpY2hlcyUyMHBsdGF0ZXJ8ZW58MHx8fHwxNzI0NDkwNzM2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mini sandwiches"
+    },
+    {
+      "id": "kraft-cheese-sandwich",
+      "description": "Kraft cheese sandwich",
+      "imageUrl": "https://images.unsplash.com/photo-1678969405738-323f9acb3c18?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxjaGVlc2UlMjBzYW5kd2ljaHxlbnwwfHx8fDE3Njc2NTgwMzJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cheese sandwich"
+    },
+    {
+      "id": "hero-image",
+      "description": "A vibrant display of fresh juices and sandwiches",
+      "imageUrl": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmcmVzaCUyMGp1aWNlJTIwYmFyfGVufDB8fHx8MTcyNDQ5MDk2NXww&ixlib-rb-4.1.0&q=80&w=1080",
+      "imageHint": "juice bar"
+    }
+  ]
+      }
