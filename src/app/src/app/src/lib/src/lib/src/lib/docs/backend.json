@@ -1,0 +1,252 @@
+{
+  "entities": {
+    "Store": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Store",
+      "type": "object",
+      "description": "Represents the store (Al-Khair Cafe) information.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the store."
+        },
+        "name": {
+          "type": "string",
+          "description": "The name of the store."
+        },
+        "logo": {
+          "type": "string",
+          "description": "URL of the store's logo image.",
+          "format": "uri"
+        },
+        "address": {
+          "type": "string",
+          "description": "The physical address of the store."
+        },
+        "locationMapURL": {
+          "type": "string",
+          "description": "URL to the store's location on a map service.",
+          "format": "uri"
+        },
+        "contactNumber1": {
+          "type": "string",
+          "description": "Primary contact phone number for the store."
+        },
+        "contactNumber2": {
+          "type": "string",
+          "description": "Secondary contact phone number for the store."
+        },
+        "operatingHours": {
+          "type": "string",
+          "description": "The store's operating hours description."
+        },
+        "deliveryPolicy": {
+          "type": "string",
+          "description": "The store's delivery policy details."
+        },
+        "status": {
+          "type": "string",
+          "description": "The status of the store (e.g., open, closed)."
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "address",
+        "contactNumber1",
+        "operatingHours",
+        "deliveryPolicy",
+        "status"
+      ]
+    },
+    "ProductCategory": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "ProductCategory",
+      "type": "object",
+      "description": "Represents a category of products in the store.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the product category."
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the product category (e.g., Juices, Sandwiches)."
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the products in this category."
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ]
+    },
+    "Product": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Product",
+      "type": "object",
+      "description": "Represents a product sold in the store.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the product."
+        },
+        "categoryId": {
+          "type": "string",
+          "description": "Reference to ProductCategory. (Relationship: ProductCategory 1:N Product)"
+        },
+        "name": {
+          "type": "string",
+          "description": "Name of the product."
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the product."
+        },
+        "imageURL": {
+          "type": "string",
+          "description": "URL of the product image.",
+          "format": "uri"
+        },
+        "price": {
+          "type": "number",
+          "description": "Price of the product."
+        },
+        "sizeOptions": {
+          "type": "array",
+          "description": "Available size options for the product.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "addOns": {
+          "type": "array",
+          "description": "Available add-ons for the product.",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "categoryId",
+        "name",
+        "price"
+      ]
+    },
+    "Customer": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Customer",
+      "type": "object",
+      "description": "Represents a customer using the app.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the customer."
+        },
+        "phoneNumber": {
+          "type": "string",
+          "description": "Customer's phone number (used for login)."
+        },
+        "name": {
+          "type": "string",
+          "description": "Customer's name."
+        },
+        "location": {
+          "type": "string",
+          "description": "Customer's location details (can be a text description or coordinates)."
+        }
+      },
+      "required": [
+        "id",
+        "phoneNumber"
+      ]
+    },
+    "Order": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "Order",
+      "type": "object",
+      "description": "Represents an order placed by a customer.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the order."
+        },
+        "customerId": {
+          "type": "string",
+          "description": "Reference to Customer. (Relationship: Customer 1:N Order)"
+        },
+        "orderDate": {
+          "type": "string",
+          "description": "Date and time when the order was placed.",
+          "format": "date-time"
+        },
+        "totalAmount": {
+          "type": "number",
+          "description": "Total amount for the order."
+        },
+        "deliveryAddress": {
+          "type": "string",
+          "description": "Delivery address for the order."
+        },
+        "status": {
+          "type": "string",
+          "description": "Status of the order (e.g., pending, processing, delivered)."
+        },
+        "paymentMethod": {
+          "type": "string",
+          "description": "Payment method used for the order (e.g., cash on delivery, Kareem POS)."
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any additional notes for the order."
+        }
+      },
+      "required": [
+        "id",
+        "customerId",
+        "orderDate",
+        "totalAmount",
+        "deliveryAddress",
+        "status",
+        "paymentMethod"
+      ]
+    },
+    "OrderItem": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "title": "OrderItem",
+      "type": "object",
+      "description": "Represents an item within an order.",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the order item."
+        },
+        "orderId": {
+          "type": "string",
+          "description": "Reference to Order. (Relationship: Order 1:N OrderItem)"
+        },
+        "productId": {
+          "type": "string",
+          "description": "Reference to Product. (Relationship: Product 1:N OrderItem)"
+        },
+        "quantity": {
+          "type": "number",
+          "description": "Quantity of the product in the order item."
+        },
+        "size": {
+          "type": "string",
+          "description": "Size of the product in the order item (if applicable)."
+        },
+        "addOns": {
+          "type": "array",
+          "description": "Add-ons selected for the product in the order item.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "itemPrice": {
+          "type": "number",
+          "description": "The sub-total price of the
